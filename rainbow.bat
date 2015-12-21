@@ -1,15 +1,13 @@
-
-@echo_off
-
-cls
-
-echo Let's go! Click!
-
-pause
+@echo off
 
 :a
 
-color 0
+color a
+color b
+color c
+color d
+color e
+color f
 color 1
 color 2
 color 3
@@ -19,11 +17,7 @@ color 6
 color 7
 color 8
 color 9
-color A
-color B
-color C
-color D
-color E
-color F
 
-goto :a
+echo Hallo!
+
+goto :a:a
